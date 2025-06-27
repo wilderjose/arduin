@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Delicias Express</title>
+  <style>
+    body { margin:0; font-family:'Segoe UI'; background:#fff8f0; color:#333; }
+    header { background:#e63946; color:#fff; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:3em; }
+    .menu { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; padding:40px; }
+    .card { background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:transform .2s; }
+    .card:hover { transform:scale(1.03); }
+    .card img { width:100%; height:200px; object-fit:cover; }
+    .card-content { padding:15px; }
+    .card-content h3 { margin-top:0; color:#e63946; }
+    .promo { background:#ffb703; padding:30px; text-align:center; }
+    .promo h2 { margin:0; color:#fff; }
+    footer { background:#264653; color:#fff; text-align:center; padding:20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delicias Express</h1>
+    <p>Tu sabor favorito en un solo lugar 🍔🍕🍟</p>
+  </header>
+
+  <section class="menu">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80" alt="Hamburguesa">
+      <div class="card-content">
+        <h3>Hamburguesa Clásica</h3>
+        <p>Pan artesanal, carne jugosa y vegetales frescos. ¡Una delicia!</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1571091655789-270e8f1333f5?auto=format&fit=crop&w=800&q=80" alt="Pizza">
+      <div class="card-content">
+        <h3>Pizza Napolitana</h3>
+        <p>Masa delgada, salsa italiana y queso mozzarella derretido.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80" alt="Papas fritas">
+      <div class="card-content">
+        <h3>Papas Fritas</h3>
+        <p>Crujientes por fuera, suaves por dentro. Acompañadas de salsas.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1625944190096-2aa1c92766fb?auto=format&fit=crop&w=800&q=80" alt="Pollo frito">
+      <div class="card-content">
+        <h3>Pollo Crispy</h3>
+        <p>Rebozado crujiente y sabor irresistible. Ideal para compartir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo">
+    <h2>🎉 2x1 en pizzas todos los miércoles 🎉</h2>
+  </section>
+
+  <footer>
+    <p>Contacto: delicias@express.com | WhatsApp: +505 8888-8888</p>
+    <p>Síguenos en Instagram y Facebook</p>
+  </footer>
+
+</body>
+</html>
